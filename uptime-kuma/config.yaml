@@ -1,0 +1,23 @@
+name: Uptime Kuma
+version: 1.14.0
+slug: uptime-kuma
+url: https://github.com/ComputerBaer/hassio-repo/tree/main/uptime-kuma
+description: "A fancy self-hosted monitoring tool. Created by Louis Lam: https://github.com/louislam/uptime-kuma"
+
+# ingress: true
+# ingress_port: 3001
+# panel_icon: "mdi:circle-slice-8"
+
+image: louislam/uptime-kuma
+arch:
+  - armv7
+  - aarch64
+  - amd64
+environment:
+  DATA_DIR: /data/app/
+ports:
+  3001/tcp: 3001
+ports_description:
+  3001/tcp: Web UI port
+webui: http://[HOST]:[PORT:3001]/dashboard
+watchdog: http://[HOST]:[PORT:3001]/dashboard

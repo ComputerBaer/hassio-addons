@@ -19,3 +19,6 @@ https://github.com/ComputerBaer/hassio-addons
 ```
 
 ## Add-ons provided by this repository
+
+- **[Uptime Kuma](/uptime-kuma/)** :
+  A fancy self-hosted monitoring tool.
