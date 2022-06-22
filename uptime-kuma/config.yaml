@@ -1,5 +1,5 @@
 name: Uptime Kuma
-version: 1.16.1
+version: 1.17.0
 slug: uptime-kuma
 url: https://github.com/ComputerBaer/hassio-repo/tree/main/uptime-kuma
 description: "A fancy self-hosted monitoring tool. Created by Louis Lam: https://github.com/louislam/uptime-kuma"
